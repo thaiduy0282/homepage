@@ -1,19 +1,18 @@
 {
   "name": "homepage",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "static webiste host on heroku with node js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start" : "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thaiduy0282/homepage.git"
-  },
-  "author": "",
+  "author": "Amit Maurya",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thaiduy0282/homepage/issues"
+  "dependencies": {
+    "express": "^4.17.1"
   },
-  "homepage": "https://github.com/thaiduy0282/homepage#readme"
+  "engines": {
+    "node": "12.16.1"
+  }
 }
