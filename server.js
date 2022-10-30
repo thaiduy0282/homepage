@@ -5,9 +5,8 @@ const port = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// Your static site folder name
-app.use(express.static("client-static-website"));
-
+app.use(express.static("assets"));
+app.use(express.static("node_modules"));
 
 app.use('/', function(req,res){
     res.sendFile(path.join(__dirname+'/index.html'));
