@@ -15,10 +15,19 @@
     font-weight: bold;
 }
 
+#our-services-menu{
+    min-width: 125px;
+}
+
 .btn-success{
     color: #fff;
     background-color: #7ec148;
     border-color: #7ec148;
+}
+
+.btn-success:hover{
+    border-color: #509c11;
+    background-color: #509c11;
 }
 
 .section-header{
