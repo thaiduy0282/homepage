@@ -1,0 +1,101 @@
+/* 
+    Green: #7ec148
+           #509c11
+    Purple: #7a4698
+*/
+
+.grey-background, nav{
+    background-color: #f6f7fb;
+}
+
+.navbar-nav .nav-item:last-child {
+    background-color: #7ec148;
+    color: white;
+    border-radius: 24px;
+    font-weight: bold;
+}
+
+.btn-success{
+    color: #fff;
+    background-color: #7ec148;
+    border-color: #7ec148;
+}
+
+.section-header{
+    color: #7a4698;
+    text-shadow: .5px .5px #b08ec1;
+}
+
+.section-sub-header{
+    color: #7a4698;
+}
+
+.nav-link{
+    color: #7a4698;
+}
+
+.dark-green{
+    color: #509c11;
+}
+
+.base-pruple{
+    color: #7a4698;
+}
+
+
+.navbar-nav .nav-item:last-child:hover {
+    background-color: #509c11;
+}
+
+.navbar-nav .nav-item:last-child a{
+    color: white;
+}
+
+.navbar-nav .nav-item:last-child:hover a{
+    color: white;
+}
+
+.separator-border{
+    border-top: solid 3px #7a4698;
+}
+
+.customer-logo{
+    height: 80px;
+    background-color: lightgray;
+    color: gray;
+    border-radius: 4px;
+}
+
+.user-avatar{
+    border: solid 1px gray;
+}
+
+.user-votes{
+    cursor: pointer;
+    background-color: 	#f7f7f7;
+}
+
+.service-card:hover{
+    cursor: pointer;
+    background-color: 	#f7f7f7;
+}
+
+.our-products:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+/* .user-votes:hover{
+    border: solid 1px darkgrey;
+    background-color: 	#eeecec;
+    transform: scale(1.05);
+} */
+
+.contact-info{
+    width: 48%;
+    padding: 12px;
+}
+
+.contact-message{
+    padding: 12px;
+}
