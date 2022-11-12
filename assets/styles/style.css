@@ -4,7 +4,43 @@
     Purple: #7a4698
 */
 
-.grey-background, nav{
+.main-screen-bg{
+    width: 100%;
+    height: calc(100vh - 117px);
+    position: absolute;
+    z-index: -1;
+    margin-top: 117px;
+    background-image: url("/images/main_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(1px);
+}
+
+.main-text{
+    background: aliceblue;
+    padding: 20px 20px 40px 20px;
+    border-radius: 15px;
+    border: 2px solid #c6e2fa;
+    opacity: .9;
+}
+
+.main-text-bg{
+    width: 40%;
+    height: 350px;
+    position: absolute;
+    background: #f6e4ff;
+    z-index: -1;
+    opacity: 0.7;
+    margin-top: -5px;
+    margin-left: -25px;
+    border-radius: 20px;
+}
+
+.main-screen{
+    height: calc(100vh - 117px);
+}
+
+.grey-background{
     background-color: #f6f7fb;
 }
 
