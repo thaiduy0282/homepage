@@ -4,16 +4,19 @@
     Purple: #7a4698
 */
 
+body {
+    overflow-x: hidden;
+}
+
 .main-screen-bg{
     width: 100%;
-    height: calc(100vh - 117px);
+    height: 100vh;
     position: absolute;
     z-index: -1;
-    margin-top: 117px;
-    background-image: url("/images/main_bg.jpg");
+    background-image: url("/images/new_bg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    filter: blur(1px);
+    transform:scaleX(90);
 }
 
 .main-text{
@@ -73,6 +76,7 @@
 
 .section-sub-header{
     color: #7a4698;
+    text-shadow: 0 0 black;
 }
 
 .nav-link{
@@ -120,10 +124,15 @@
     background-color: 	#f7f7f7;
 }
 
-.service-card:hover{
+.service-card > div {
+    background-color: lavenderblush;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
+}
+
+/* .service-card:hover{
     cursor: pointer;
     background-color: 	#f7f7f7;
-}
+} */
 
 .our-products:hover{
     cursor: pointer;
