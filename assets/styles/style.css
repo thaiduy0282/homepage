@@ -44,7 +44,8 @@ body {
 }
 
 .grey-background{
-    background-color: #f6f7fb;
+    /* background-color: #f6f7fb; */
+    background-color: aliceblue;
 }
 
 .navbar-nav .nav-item:last-child {
@@ -125,7 +126,7 @@ body {
 }
 
 .service-card > div {
-    background-color: lavenderblush;
+    background-color: aliceblue;
     box-shadow: 0 1px 3px rgb(0 0 0 / 30%);
 }
 
